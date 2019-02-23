@@ -1,0 +1,151 @@
+body{
+    background-color:gray;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  #navigation-bar{
+    position:fixed;
+    top:0px;
+    left:0px;
+    padding:15px;
+    width:100%;
+    background-color:#005D61;
+  }
+  #first-span{
+    position:relative;
+    left:15%;
+    top:5px;
+  }
+  a{
+    text-decoration: none;
+    color:white;
+  }
+  .span-login{
+    position:absolute;
+    right:10%;
+    top:30%;
+  }
+  .span-signup{
+    position:absolute;
+    right:15%;
+    top:30%;
+  }
+  .service{
+    border:3px inset rgb(9, 124, 9);
+    width:20%;
+    height:160px;
+    float :left;
+    background:#eeeeee;
+    text-align: center;
+    margin:1%;
+    padding:1%;
+    font-size:14px;
+    max-height:160px;
+    max-width:20%;
+  }
+  .services{
+    display:inline-block;
+    width:70%;
+    max-height:50%;
+    max-width:70%;
+    height:50%;
+    margin : 2% 17%;
+  }
+  .picture{
+    width:800px;
+    margin-left:13%;
+    padding-top:5%;
+  }
+  #img{
+    border:10px groove rgb(9, 124, 9);
+    height:300px;
+    width:800px;
+  }
+  .picture h2{
+    position:relative;
+    top:0%;
+    left:0px;
+    color:rgb(9, 124, 9);
+  }
+  #wrapper{
+    width:80%;
+    height:720px;
+    background-color: white;
+    margin-left:10%;
+  }
+  .column {
+      font-size:15px;
+      float: left;
+      padding: 10px;
+      margin:5px;
+      height:500px;
+      background-color: rgb(226, 218, 218);
+    }
+    
+    .column.side {
+      width: 22%;
+      border:4px groove rgb(9, 124, 9);
+    }
+    
+    /* Middle column */
+    .column.middle {
+      width: 46%;
+      border:4px ridge rgb(9, 124, 9);
+  
+    }
+  #column:after{
+      display:block;
+      content:"";
+      clear:both;
+  }
+  #image{
+    
+      width:30%;
+      height:20%;
+      margin-top:10px;
+      margin-left:450px;
+      border:5px groove rgb(9, 124, 9);
+  }
+  .Benefits{
+    border:5px groove rgb(9, 124, 9);
+      padding:20px;
+      float:left;
+      margin:20px 30px;
+      background-color: white;
+  }
+  .Benefits p{
+      -webkit-column-count: 3;
+      column-count: 3;
+      -webkit-column-gap:50px;
+      column-gap:50px;
+      -webkit-column-rule:2px solid black;
+      column-rule:2px solid black;
+      text-align:justify;
+  }
+  .Benefits:after{
+      display:block;
+      content:"";
+      clear:both;
+  }
+  .quote-div{
+    border: 10px inset rgb(9, 124, 9);;
+    padding: 5px;
+    overflow: auto;
+    padding-left:20px;
+    text-align: center;
+  }
+  .ceo-image{
+    float: right;
+  }
+  .quote-div:after {
+    content: "";
+    clear: both;
+  }
+  .quote{
+    font-size:20px;
+    color:white;
+    display:inline-block;
+    vertical-align:middle;
+    height:300px;
+    padding-top:150px;
+  }
